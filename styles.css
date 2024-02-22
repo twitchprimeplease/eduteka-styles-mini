@@ -112,7 +112,7 @@ body{
     color: var(--primary-500)
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover:disabled{
     background-color:transparent;
 }
 
