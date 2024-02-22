@@ -1,0 +1,121 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+:root{
+    --primary-100: #E4DDF5;
+    --primary-200: #C9BBEA;
+    --primary-300: #AE98E0;
+    --primary-400: #9376D5;
+    --primary-500: #7854CB;
+    --primary-600: #5B36B0;
+    --primary-700: #442884;
+    --primary-800: #2D1B58;
+    --primary-900: #170D2C;
+    --primary-1000: #10091F;
+
+    --secondary-500: #3DD699;
+    --secondary-100: #D8F7EB;
+    --secondary-200: #8BE6C2;
+    --secondary-300: #8BE6C2;
+    --secondary-400: #64DEAD;
+    --secondary-600: #28BD81;
+    --secondary-700: #209768;
+    --secondary-800: #18714E;
+    --secondary-900: #104C34;
+    --secondary-1000: #08261A;
+
+    --tertiary-100: #FFE4DA;
+    --tertiary-200: #FFC9B4;
+    --tertiary-300: #FFAD8F;
+    --tertiary-400: #FF9269;
+    --tertiary-500: #FF7744;
+    --tertiary-600: #FF500E;
+    --tertiary-700: #D73B00;
+    --tertiary-800: #A22C00;
+    --tertiary-900: #6C1D00;
+    --tertiary-1000: #360F00;
+
+    --eduteka-100: #FFB8B8;
+    --eduteka-200: #FF7171;
+    --eduteka-300: #FF2A2A;
+    --eduteka-400: #E20000;
+    --eduteka-500: #9B0000;
+    --eduteka-600: #7C0000;
+    --eduteka-700: #5D0000;
+    --eduteka-800: #3E0000;
+    --eduteka-900: #1F0000;
+    --eduteka-1000: #150000;
+
+    --neutral-white: #F7F5FE;
+}
+
+.btn-primary{
+    background-color: var(--secondary-500);
+    border-width: 0;
+}
+
+.btn-primary:hover{
+    background-color: var(--secondary-700);
+}
+
+.btn-primary:disabled {
+    background-color: var(--secondary-500);
+
+}
+
+.btn-secondary{
+    background-color: var(--primary-500);
+    border-width: 0;
+}
+
+.btn-secondary:hover{
+    background-color: var(--primary-700);
+}
+
+.btn-secondary:disabled {
+    background-color: var(--primary-500);
+    
+}
+
+.btn-outline-primary{
+    border-color: var(--secondary-500);
+    color: var(--secondary-500);
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--secondary-200);
+    border-color: var(--secondary-500);
+    
+}
+
+.btn-outline-primary:disabled{
+    border-color: var(--secondary-500);
+    color: var(--secondary-500)
+}
+
+.btn-outline-primary:hover:disabled{
+    background-color: transparent;
+    border-color: var(--secondary-500);
+}
+
+.btn-outline-secondary{
+    border-color: var(--primary-500);
+    color: var(--primary-500);
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--primary-200);
+    border-color: var(--primary-500);
+    color: var(--primary-500)
+}
+
+.btn-outline-secondary:hover{
+    background-color:transparent;
+}
+
+
+
+
